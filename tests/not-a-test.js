@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import {hello} from './module.js'
+import {hello} from '../module.js'
 
 // function hello (name){
 //     console.log('Hello, ', name, '!!!')
