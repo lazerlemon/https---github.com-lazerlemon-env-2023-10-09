@@ -1,4 +1,4 @@
-const { kolobok } = require("./tale");
+const { kolobok } = require("../src/tale");
 
 test("дедушка", () => {
   const name = "дедушка";
@@ -21,7 +21,7 @@ test("лиса", () => {
   expect(action).toBe("Меня съели");
 });
 
-const { newYear } = require("./tale");
+const { newYear } = require("../src/tale");
 
 test("Дед Мороз", () => {
   const characterName = "Дед Мороз";
